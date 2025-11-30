@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Basic Page Setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Columns */
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.english-col {
+    border-right: 1px solid #e0e0e0;
+    padding-right: 20px;
+}
+
+.sanskrit-col {
+    padding-left: 20px;
+    font-family: 'Nirmala UI', 'Arial Unicode MS', sans-serif; /* Better for Sanskrit rendering */
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Interactive Segments */
+.segment {
+    cursor: pointer;
+    padding: 3px 2px;
+    border-radius: 4px;
+    transition: background-color 0.15s ease;
+    display: inline; /* Allows text to flow naturally */
+}
+
+.segment:hover {
+    background-color: #e3f2fd; /* Light blue hover */
+}
+
+/* The Active Highlight Class */
+.active-highlight {
+    background-color: #fff176; /* Yellow highlight */
+    color: #000;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 16px;
+}
