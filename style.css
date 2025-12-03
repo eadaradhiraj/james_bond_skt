@@ -54,6 +54,7 @@ h1 {
 /* SANSKRIT FONT */
 .sanskrit-text {
     font-family: 'Nirmala UI', 'Arial Unicode MS', sans-serif;
+    font-size: 20px;
 }
 
 /* INTERACTIVE SENTENCES (SEGMENTS) */
